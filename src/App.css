@@ -1,6 +1,7 @@
 .app {
     min-height: 100vh;
     background: #d9a7c7;
+    padding: 5px;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
     /* Chrome 10-25, Safari 5.1-6 */
