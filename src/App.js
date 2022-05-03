@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Recipe from './components/Recipe'
 import './App.css'
-import Home from './components/DefaultRecipe'
-import DefaultRecipe from './components/DefaultRecipe'
 
 function App() {
   const APP_ID = 'ab450ada'
