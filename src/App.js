@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Recipe from './components/Recipe'
+import RecipeCard from './components/RecipeCard'
 import './App.css'
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
         {
           recipes.map(recipe => (
-            <Recipe key={recipe.recipe.label} title={recipe.recipe.label} calories={recipe.recipe.calories} img={recipe.recipe.image} ingredients={recipe.recipe.ingredients} />
+            <RecipeCard key={recipe.recipe.label} url={recipe.recipe.url} title={recipe.recipe.label} calories={recipe.recipe.calories} img={recipe.recipe.image} ingredients={recipe.recipe.ingredients} />
           ))
         }
       </div>
